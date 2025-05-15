@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Screenshot Main Page
-      uses: SimobiSirOP/screenshot-website@main
+      uses: SimobiSirOP/screenshot-website@v1111
       with:
         source: https://github.com/swinton/screenshot-website
         destination: screenshot-main-page.png
